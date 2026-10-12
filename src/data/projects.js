@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    id: 'saffron-stone',
+    title: 'Saffron & Stone',
+    category: 'Web Development',
+    description: 'A responsive, modern restaurant website featuring a polished UI and smooth navigation. Built with a focus on performance and cross-device accessibility.',
+    tech: ['React', 'Vite', 'Tailwind CSS v4'],
+    link: 'https://saffron-and-stone.netlify.app/',
+    github: '#',
+    image: null,
+  },
+  {
+    id: 'procurement-pipeline',
+    title: 'Procurement Data Pipeline',
+    category: 'Data Engineering',
+    description: 'Built ETL workflows using Power Query to consolidate and transform Dynamics 365 Business Central datasets, utilizing a star-schema model for enterprise reporting.',
+    tech: ['Microsoft Fabric', 'Power Query', 'Data Modeling', 'Dynamics 365'],
+    link: '#',
+    github: '#',
+    image: null,
+  },
+  {
+    id: 'crashguard',
+    title: 'CrashGuard Emergency App',
+    category: 'Full-Stack Development',
+    description: 'Developed a real-time accident detection application integrating smartphone sensors, Google Maps API, and automated emergency routing.',
+    tech: ['React Native', 'Node.js', 'Express', 'Firebase'],
+    link: '#',
+    github: '#',
+    image: null,
+  },
+  {
+    id: 'fmcg-analytics',
+    title: 'FMCG Analytics Dashboards',
+    category: 'Data Analytics',
+    description: 'Developed a comprehensive analytics solution of 9 dashboards tracking sales, inventory, and production metrics using SQL for data extraction and DAX for KPIs.',
+    tech: ['Power BI', 'SQL', 'DAX', 'Business Intelligence'],
+    link: '#',
+    github: '#',
+    image: null,
+  }
+];
